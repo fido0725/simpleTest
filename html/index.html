@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" href="css/css.css">
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/js.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+<style type="text/css">
+html, body {
+	background: #e8f2f9;
+}
+</style>
+</head>
+<body>
+
+<!--<div id="play" > <audio id="audio" onended="onendedEnd()"/> </div>
+
+<div class="container">
+  <input id="idl" type="hidden" value="1"/>
+  <div id="content0" contenteditable="true" class="portlet por_h1" onfocus="seldiv(this);" ><span>请输入课件标题</span></div>
+  <div id="column" class="column" onfocus="seldiv(this);"  >
+  	<div class="drap">
+    		<div class="portlet">
+	    	  <div class="portlet-header"> </div>
+	    	  <div class="portlet-close"></div>
+	    	  <div id="content1" onfocus="seldiv(this);" class="portlet-content" contenteditable="true"></div>
+    		</div>
+	  </div>
+  </div>
+</div>--> 
+
+<!---课件模板 start--->
+<div class="mb_layout" > 
+  <!---课件标题 start--->
+  <div class="mb_edit">
+  <div class="mb_p">
+    <h1  contenteditable="true" id="title0" onClick="setIsEditAble(false)" class="we_abc"  onfocus="seldiv(this);" ></h1>
+     <span class="t1">请输入课件标题</span>
+     </div>
+    <div class="line"></div>
+     <div class="mb_p">
+    <h2 contenteditable="true"  id="title1"  onClick="setIsEditAble(false)" class="we_abc"   onfocus="seldiv(this);"></h2>
+      <span class="t2">《课程系列标题》</span>
+     </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---课件标题 end---> 
+  <!---开篇 start--->
+  <div class="mb_edit mb_edit01 mb_br02 mb_t"  onClick="setIsEditAble(false)" onfocus="seldiv(this);" >
+  <div class="mb_p">
+    <p contenteditable="true" id="title2" class="p1 we_abc"></p>
+    <span class="t3">以终为始是一个人应有的职业习惯。以终为始的基础是想象力——设想的能力、看到愿景的能力人。</span>
+    </div>
+    <div class="line"></div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---开篇 end---> 
+  <!---作者日期 start--->
+  <div class="mb_edit mb_edit02"  onClick="setIsEditAble(false)" onfocus="seldiv(this);">
+  <div class="mb_p">
+    <p  contenteditable="true"  id="title3" class="we_abc"></p>
+    <span class="t4">史蒂芬·柯维  2014-10-10</span>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---作者日期 end---> 
+  
+  <!---可编辑区域 start--->
+  <div class="mb_edit mb_br02" style="text-align:left">
+   <div class="mb_p">
+    <p  contenteditable="true" id="title4"  onClick="setIsEditAble(true)" class="we_abc" onfocus="seldiv(this);"></p>
+     <span class="t5">单击此处输入本小节开篇的定义</span>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---可编辑区域 end---> 
+  
+  <!---可编辑区域 start--->
+  <div class="mb_edit mb_br02 position">
+    <div class="edit_pic" onClick="changeObj('img1',2)" >更换图片</div>
+    <div  style="text-align:inherit;" id="img1"><img src="images/pic.png" width="100%" height="100%" alt="" id="imgsel" /></div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---可编辑区域 end---> 
+  
+  <!---动漫情景小故事 start--->
+  <div class="mb_edit mb_br02 mb_t01">
+    <h3>
+     <div class="mb_p">
+      <P contenteditable="true" id="title5" class="we_abc" onClick="setIsEditAble(false)" ></P>
+      <span class="t6">动漫情景小故事 - See it</span>
+      </div>
+    </h3>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit">
+    <div class="mb_p">
+    <p  contenteditable="true" id="title6" onClick="setIsEditAble(false)"  class="p2 we_abc"></p>
+       <span class="t7">在开始动漫情景故事之前，可能需要提示阅读者一些相关的背景知识、关注
+      要点......</span>
+      </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---动漫情景小故事 end---> 
+  
+  <!---可编辑区域 start--->
+  <div class="mb_edit mb_br02 position">
+    <div class="edit_pic" onClick="changeObj('img2',4)" >更换视频</div>
+    <div style="text-align:inherit;"  id="img2"  ><img  src="images/video.png" width="100%" height="100%"  alt=""/></div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---可编辑区域 end---> 
+  <!---思考与演练 start--->
+  <div class="mb_edit mb_br02 mb_t01">
+    <h3 class="c1">
+     <div class="mb_p">
+      <P contenteditable="true" id="title7" onClick="setIsEditAble(false)" class="we_abc" ></P>
+      <span class="t6">思考与演练 - Try it</span>
+      </div>
+    </h3>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+   <div class="mb_p">
+    <h4 contenteditable="true"  id="title8" onClick="setIsEditAble(false)" class="we_abc"></h4>
+     <span class="t7">1、将本小节关键知识点，整理成一问一答的模式。单击此处输入提问部分......</span>
+    </div>
+    <div class="mb_p">
+    <P class="answer we_abc" contenteditable="true"  id="title9" onClick="setIsEditAble(false)" ></P>
+    <span class="t8">单击此处输入答案部分......</span>
+    <em class="answer_t"></em>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+  <div class="mb_p">
+    <h4 contenteditable="true"  id="title10" onClick="setIsEditAble(false)" class="we_abc"></h4>
+     <span class="t7">2、将本小节关键知识点，整理成一问一答的模式。单击此处输入提问部分......</span>
+     </div>
+      <div class="mb_p">
+    <P class="answer we_abc" contenteditable="true"  id="title11" onClick="setIsEditAble(false)"></P>
+     <span class="t8">单击此处输入答案部分......</span>
+    <em class="answer_t"></em>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+  <div class="mb_p">
+    <h4 contenteditable="true" id="title12" onClick="setIsEditAble(false)" class="we_abc"></h4>
+     <span class="t7">3、将本小节关键知识点，整理成一问一答的模式。单击此处输入提问部分......</span>
+    </div>
+    <div class="mb_p">
+    <P class="answer we_abc" contenteditable="true" id="title13" onClick="setIsEditAble(false)"></P>
+      <span class="t8">单击此处输入答案部分......</span>
+    <em class="answer_t"></em>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+   <div class="mb_p">
+    <h4 contenteditable="true" id="title14" onClick="setIsEditAble(false)" class="we_abc"></h4>
+     <span class="t7">4、将本小节关键知识点，整理成一问一答的模式。单击此处输入提问部分......</span>
+    </div>
+     <div class="mb_p">
+    <P class="answer we_abc" contenteditable="true" id="title15" onClick="setIsEditAble(false)"></P>
+    <span class="t8">单击此处输入答案部分......</span>
+    <em class="answer_t"></em>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+    <div class="mb_p">
+    <h4 contenteditable="true" id="title16" onClick="setIsEditAble(false)" class="we_abc"></h4>
+     <span class="t7">5、将本小节关键知识点，整理成一问一答的模式。单击此处输入提问部分......</span>
+    </div>
+      <div class="mb_p">
+    <P class="answer we_abc" contenteditable="true" id="title17" onClick="setIsEditAble(false)"></P>
+     <span class="t8">单击此处输入答案部分......</span>
+    <em class="answer_t"></em>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <!---思考与演练 end---> 
+  <!---更多资料 start--->
+  <div class="mb_edit mb_br02 mb_t01">
+    <h3 class="c2">
+    <div class="mb_p">
+      <P contenteditable="true" class="we_abc"></P>
+      <span class="t6">更多资料 - More about it</span>
+      </div>
+    </h3>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t">
+    <h5>相关资讯</h5>
+     <div class="mb_p">
+    <div class="list_news we_abc" contenteditable="true"  id="title18" onClick="setIsEditAble(true)"></div>
+     <span class="t9">
+     使用列点文本，并在列点上链接访问地址，以展示相关资讯：......<br>
+      ● <a href="#">人类四项独特的天赋</a>。<br>
+      ● <a href="#">消极被动对个人成长和人际关系的危害</a><br>
+     </span>
+    </div>
+    <div class="portlet-close" style="display:none"></div>
+  </div>
+  <div class="mb_edit mb_t02">
+    <h5>类似话题</h5>
+     <div class="mb_p">
+    <div class="list_news we_abc" contenteditable="true"  id="title19" onClick="setIsEditAble(true)"></div>
+     <span class="t9">使用列点文本，并在列点上链接访问地址，以展示相关资讯：......<br>
+      ● <a href="#">人类四项独特的天赋</a>。<br>
+      ● <a href="#">消极被动对个人成长和人际关系的危害</a><br>
+     </span>
+     </div>
+    <div class="portlet-close" style="display:none"></div>
+    
+    <!---更多资料 emd---> 
+    
+  </div>
+</div>
+<!---课件模板 end---> 
+
+<footer>
+<span> <a href="javascript:void(0)" id="title" onClick="changeObj('img1',2)">更新图片</a> <a href="javascript:void(0)" id="title" onClick="changeObj('img2',4)">更新视频</a> <a href="javascript:void(0)" id="add" onClick="add()">添加文本框</a> <a href="javascript:void(0)" id="c4" onClick="addImg('drop_ico_hover.png',100,100)">图片</a> <a href="javascript:void(0)" id="c4" onClick="addVoice('test_cbr.mp3')">语音</a> <a href="javascript:void(0)" id="c4" onClick="addVideo('movie1.mp4',100,100)">视频</a> <a href="javascript:void(0)" id="c4" onClick="add_align('left')">左对齐</a> <a href="javascript:void(0)" id="c4" onClick="add_align('center')">居中</a> <a href="javascript:void(0)" id="c4" onClick="add_align('right')">右对齐</a> <a href="javascript:void(0)" id="bold" onClick="add_bold()">B</a> <a href="javascript:void(0)" id="xstyle" onClick="add_italic()">I</a> <a href="javascript:void(0)" id="link" onClick="add_line()">U</a> <a href="javascript:void(0)" id="fontPlus" onClick="add_size('+')">A+</a> <a href="javascript:void(0)" id="fontMinus" onClick="add_size('-')">A-</a> <a href="javascript:void(0)" id="c1" onClick="add_color('#ff0000')">颜色红</a> <a href="javascript:void(0)" id="c2" onClick="add_color('#00ff00')">颜色绿</a> <a href="javascript:void(0)" id="c3" onClick="add_color('#ffff00')">颜色黄</a> <a href="javascript:void(0)" id="c4" onClick="add_color('#000000')">颜色黑</a> <a href="javascript:void(0)" id="c4" onClick="add_order('ordered')">有序编号</a> <a href="javascript:void(0)" id="c4" onClick="add_order('unordered')">无序编号</a> <a href="javascript:void(0)" id="pvh" onClick="getPreViewHtml()">生成HTML</a> <a href="javascript:void(0)" id="evh" onClick="getEditViewHtml()">生成编辑</a> <a href="javascript:void(0)" id="title" onClick="getTitle()">获取标题</a> <a href="javascript:void(0)" id="title" onClick="getPreViewHtmlByMb()">模板生成</a> 
+<a href="javascript:void(0)" id="title" onClick="getPreViewHtmlByMb()">模板视lt</a>
+<a href="javascript:void(0)" id="title" onClick="createLink()">超链接</a>
+<a href="javascript:void(0)" id="title" onClick="getIsImg()">图片类型</a>
+</span>
+</footer>
+
+</body>
+</html>

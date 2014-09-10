@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/**********生成模板定义************/
+body{font-size:18px;line-height:160%;margin-left:0px;margin-top:10px;margin-right:0px;margin-bottom:10px;background:#666;}
+a{text-decoration:none;}
+#mb_layout { width:95%; border:1px #CCC dashed; background-color:#FFF; text-align:left; margin:0px auto;}
+._title1{font-size:22px;font-weight:bold;color:#008bcc;text-align:center;margin-left:10px;margin-right:10px;margin-bottom:10px;}
+._courseLine{width:100%;border-bottom:#999999 1px dotted;margin-left:10px;margin-right:10px;}
+._course_bel{text-align:left;font-size:16px;color:#999;margin-left:10px;margin-right:10px;}
+._dialog{border-radius:5px;margin:10px 10px 10px 10px;padding:15px 10px 15px 10px;border:1px solid #bcbcbc;background:#fff;position:relative;}
+._dialog_textarea{font-size:16px;width:100%;height:80px;}
+._dialog_cor1{position:absolute;right:60px;bottom:-10px;border-top:10px solid #bcbcbc;border-left:10px solid transparent;border-right:10px solid transparent;width:0;height:0;}
+._dialog_cor2{position:absolute;right:60px;bottom:-9px;border-top:10px solid #fff;border-left:10px solid transparent;border-right:10px solid transparent;width:0;height:0;}
+._dialog_bel{font-size:16px;text-align:right;color:#333333;}
+._text{margin-left:10px;margin-right:10px;}
+._highlight{font-weight:bold;color:#990000;}
+._subTitle0{position:relative;width:220px;height:0;border-right:17px solid transparent;border-top:17px solid #039100;border-left:17px solid #039100;border-bottom:17px solid #039100;line-height:0px;color:#FFF;font-weight:bold;font-size:16px;}
+._subTitle1{position:relative;width:220px;height:0;border-right:17px solid transparent;border-top:17px solid #ff8400;border-left:17px solid #ff8400;border-bottom:17px solid #ff8400;line-height:0px;color:#FFF;font-weight:bold;font-size:16px;}
+._subTitle2{position:relative;width:220px;height:0;border-right:17px solid transparent;border-top:17px solid #0082c6;border-left:17px solid #0082c6;border-bottom:17px solid #0082c6;line-height:0px;color:#FFF;font-weight:bold;font-size:16px;}
+._subTitle_input{position:absolute;font-size:16px;top:-10px;}
+._videoAbout{background-color:#fff;padding:10px 10px 10px 10px;border-radius:5px;background-image:url(../img_pub/pic2.png);background-repeat:no-repeat;background-position-y:bottom;background-position-x:right;margin-left:10px;margin-right:10px;border:1px solid #bcbcbc;}
+._video{text-align:center;margin-left:10px;margin-right:10px;}
+._clickBtn{text-align:center;background-color:#EAEAEA;margin:30px 80px 30px 80px;padding:10px 10px 10px 10px;border-radius:5px;border:1px solid #bcbcbc;background:-moz-linear-gradient(top,#f9f9f9,#efefef);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f9f9f9),to(#efefef));color:#009;}
+._showArea{border-radius:5px;margin:10px 10px 10px 10px;padding:15px 10px 15px 10px;border:1px solid #bcbcbc;background:#fff;position:relative;display:none;}
+._showArea_cor1{position:absolute;top:-10px;left:50px;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #bcbcbc;width:0;height:0;}
+._showArea_cor2{position:absolute;top:-9px;left:50px;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #fff;width:0;height:0;}
+._selectedTabBtn{background-color:#EAEAEA;text-decoration:none;padding:10px 20px 13px 20px;border-radius:5px 5px 0px 0px;border:#EAEAEA 1px solid;text-align:center;color:#000000;background:-moz-linear-gradient(top,#f9f9f9,#efefef);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#f9f9f9),to(#efefef));border:1px solid #bcbcbc;}
+._notSelectedTabBtn{background-color:#FFFFFF;text-decoration:none;padding:10px 20px 13px 20px;border-radius:5px 5px 0px 0px;border:#EAEAEA 1px solid;text-align:center;color:#000000;border:1px solid #bcbcbc;}
+._moreArea{border:#EAEAEA 1px solid;margin-top:8px;border-radius:0px 0px 5px 5px;padding:10px 10px 10px 10px;text-decoration:none;line-height:40px;margin-left:10px;margin-right:10px;border:1px solid #bcbcbc;}
+._moreArea_hide{border:#EAEAEA 1px solid;width:100%;margin-top:8px;border-radius:0px 0px 5px 5px;padding:10px 10px 10px 10px;text-decoration:none;line-height:40px;margin-left:10px;margin-right:10px;border:1px solid #bcbcbc;display:none;}
+.comp{background-color:#FFF;text-align:left;}
+.toolbox{background-image:url(../images/navbar.png);background-repeat:repeat-x;text-decoration:none;height:37px;width:100%;position:fixed;bottom:0px;left:auto;color:#FFF;right:auto;line-height:30px;text-align:center;font-weight:bold;_POSITION:absolute;_TOP:expression(offsetParent.scrollTop+document.documentElement.clientHeight-this.offsetHeight);}
+.toolbox a{color:#FFF;}

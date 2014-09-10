@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{background:#fff;font-family:"微软雅黑";}
+.layout{background:#f2f2f2; margin:0 auto;}
+header{height:40px; background:#dedede; line-height:40px; color:#666; text-align:center; position:fixed; top:0px; width:100%;}
+.container{width:85%; margin:0px auto 0px; }
+.drap { width:100%; margin:0px auto; text-align:center;}
+.textarea{border:1px dashed #f00;}
+.on{border:1px dashed red;}
+footer{background:#076698; height:88px; position:fixed; width:100%; text-align:center; bottom:0;}
+footer span{margin:25px 10px; display:inline-block;}
+footer span a{padding:10px 10px; margin:0 2px; display:inline-block; background:#f1f1f1; text-decoration:none; font-size:1em; color:#666; cursor:pointer;}
+footer span a:hover{background:#FFC;}
+
+.por_h1 { min-height:40px; line-height:40px; color:#999; background:none !important; height:auto; background:none; position:relative; z-index:9; width:100%; color:#666;}
+.por_h1 div { width:100%; }
+
+.portlet { width:98%; margin-top: 5px; border: 2px dotted #187ec6; margin-top: 5px; background:#fff; margin-bottom:20px; position:relative;text-align:center;}
+
+.portlet-close { position:absolute; left:-23px; top:10px; cursor: pointer; background:url(../images/we_edit_.png) no-repeat center center #187ec6; background-size:10px 10px; width:20px; height:20px; line-height:20px; font-size:20px; border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; color:#fff; text-align:center;}
+.portlet-content {overflow:auto; min-height:60px; width:100%;  background:#fff; line-height:24px; }
+.portlet-content-center {text-align:center; }
+.portlet-content-left {text-align:left; }
+.portlet span { color:#dedede;}
+.portlet-close-on {border: 2px dotted red !important; }
+
+.portlet-header { width:40px; height:40px; background:url(../images/drop_ico.png) no-repeat center center; background-size:20px 20px; cursor:move; position:absolute; right:-33px; top:0px;}
+.portlet-drop { background:url(../images/drop_ico_hover.png) no-repeat center center; background-size:20px 20px;}
+
+.por_bg{  background:url(../images/we_edit_.png) no-repeat center center #c00;}
+.por_br { border:2px dotted #c00;}
+
+.view { text-align:center; min-height:40px; line-height:40px; text-align:center;}
+.view-contentimg { text-align:center;}
+.view-contentimg img { width:100%; height:auto;}
+.view-contenttext { text-align:left;}
+
+/********新增课件模板********/
+.position { position:relative;}
+.mb_layout { width:90%; margin:0px auto; margin:20px auto 0px; text-align:center;}
+.mb_edit { background:#fff; border:2px solid #fff; position:relative; padding:0px 10px; margin-bottom:20px;}
+.mb_edit h1 { color:#187ec6; font-family:"微软雅黑"; font-size:24px; font-weight:normal; line-height:1.8; height:35px; line-height:35px; min-height:35px; height:auto; background:none; position:relative; z-index:9; width:100%;}
+.mb_edit p {  text-align:left; color:#666; min-height:30px; height:auto; background:none; position:relative; z-index:9; width:100%; color:#666;}
+.line { height:1px; line-height:1px; size:0px; overflow:hidden; margin:10px auto; width:98%; border-bottom:1px solid #cccccc; }
+.mb_edit h2 { line-height:1.8; font-weight:normal; text-align:left; font-size:20px; height:35px; line-height:35px; min-height:35px; height:auto; background:none; position:relative; z-index:9; width:100%; color:#666;}
+.mb_edit .portlet-close { top:0px;}
+.mb_edit h3 { border-color: #039100 transparent #039100 #039100; border-right: 17px solid transparent; border-style: solid; border-width: 17px; font-size: 16px;
+   height: 0; position: relative; width: 220px; line-height:30px;}
+.mb_edit h3 p { position:absolute; top:-30px; color:#fff;}
+.mb_edit h3.c1 { border-color: #ff8400 transparent #ff8400 #ff8400;}
+.mb_edit h3.c2 { border-color: #0082c6 transparent #0082c6 #0082c6;}
+.mb_edit h4 { line-height:1.8; font-weight:normal; text-align:left; font-size:16px; min-height:65px; height:auto; background:none; position:relative; z-index:9; width:100%; color:#666; }
+.mb_edit h5 { background:#0082c6; padding:10px; color:#fff; width:80px; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-bottom:0px;}
+.mb_edit img { border:0px; margin:0px; padding:0px;}
+.mb_edit01 .line { margin-bottom:0px;}
+.mb_edit02 p { text-align:right;}
+.mb_edit03 p { min-height:50px;}
+.answer { border:1px solid #dcdcdc !important; padding:5px 10px; width:92% !important; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; position:relative;}
+.answer_t { width:19px;  height: 12px; background:url(../images/icon3.png) no-repeat; /* border-left: 13px solid transparent; border-right: 13px solid #c00; border-bottom: 13px solid #fff; */position:absolute; top:-11px; left:20px; right:10px; z-index:999999999999999;}
+
+.list_news { border:1px solid #dedede; margin-top:0px; padding:10px; line-height:2.0; text-align:left; min-height:155px; height:auto; background:none; position:relative; z-index:9; width:90%; color:#666;}
+.list_news a { color:#0082c6 !important;}
+
+.mb_p { position:relative; height:auto;}
+.mb_p span { position: absolute; top:0px; left:0px; width:100%; z-index:0; font-family:"微软雅黑"; text-align:left; font-size:16px; line-height:1.6; color:#666}
+.mb_p span.t0 { top:7px; text-align:center;}
+.mb_p span.t1 { position: absolute; top:0px; left:0px; width:100%; z-index:0; font-family:"微软雅黑"; text-align:center; font-size:24px; color:#187ec6;}
+.mb_p span.t2 { text-align:left; font-size:20px; color:#666}
+.mb_p span.t3 { text-align:left; font-size:16px; color:#666; }
+.mb_p span.t4 { text-align:right;}
+.mb_p span.t5 { top:0px;}
+.mb_p span.t6 { top:-12px; color:#fff;}
+.mb_p span.t7 {}
+.mb_p span.t8 { top:7px; left:10px;}
+.mb_p span.t9 { top:15px; left:10px; width:90%;}
+.mb_p span.t9 a{ color:#0082c6;}
+
+.mb_edit p.p1 { min-height:85px;}
+.mb_edit p.p2 { min-height:65px;}
+
+.mb_t { margin-bottom:0px;}
+.mb_t01 { margin:20px 0px 0px 0px;}
+.mb_t02 { padding-bottom:20px;}
+
+.mb_br01{ border-bottom:2px solid #187ec6;}
+.mb_br02{ border-top:2px solid #187ec6;}
+.mb_br { border:2px dotted #c00;}
+
+
+/********空白课件模板生成********/
+.edit_one { width:99%; margin:0px auto; margin:20px auto 0px; text-align:center; background:#fff;}
+.view {text-align:center;}
+.view-content { text-align:center; margin:10px 0px 10px;}
+.edit_one img,.edit_one video { width:100%; height:auto;}
+.view_h1 { line-height:2.0; font-size:24px; border-bottom:1px solid #0082c6; color:#0082c6; font-family:"微软雅黑", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+.view-text,.view-contenttext { line-height:2.0; color:#666; padding:0px 15px;}
+.view-contentimg,.view-contenttext { margin:10px 0px 10px;}
+
+.img_con {  }
+.img_con img { width:100%; height:auto;}
+
+.edit_pic { position:absolute; right:-2px; top:0px; background:#187ec6; height:26px; line-height:26px; color:#fff; padding:0px 5px; cursor:pointer;}
+#title4 { color:#666; height:35px; }
+#title4 ol li { color:#666; line-height:2.0;}

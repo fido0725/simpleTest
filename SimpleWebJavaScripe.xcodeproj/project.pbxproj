@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E57FCF19BFE92F0026C816 /* html in Resources */ = {isa = PBXBuildFile; fileRef = 35E57FCE19BFE92F0026C816 /* html */; };
+		84F6522819BF448300E4EB80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6522719BF448300E4EB80 /* Foundation.framework */; };
+		84F6522A19BF448300E4EB80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6522919BF448300E4EB80 /* CoreGraphics.framework */; };
+		84F6522C19BF448300E4EB80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6522B19BF448300E4EB80 /* UIKit.framework */; };
+		84F6523219BF448300E4EB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F6523019BF448300E4EB80 /* InfoPlist.strings */; };
+		84F6523419BF448300E4EB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6523319BF448300E4EB80 /* main.m */; };
+		84F6523819BF448300E4EB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6523719BF448300E4EB80 /* AppDelegate.m */; };
+		84F6523A19BF448300E4EB80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F6523919BF448300E4EB80 /* Images.xcassets */; };
+		84F6524119BF448300E4EB80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6524019BF448300E4EB80 /* XCTest.framework */; };
+		84F6524219BF448300E4EB80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6522719BF448300E4EB80 /* Foundation.framework */; };
+		84F6524319BF448300E4EB80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6522B19BF448300E4EB80 /* UIKit.framework */; };
+		84F6524B19BF448300E4EB80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F6524919BF448300E4EB80 /* InfoPlist.strings */; };
+		84F6524D19BF448300E4EB80 /* SimpleWebJavaScripeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6524C19BF448300E4EB80 /* SimpleWebJavaScripeTests.m */; };
+		84F6525819BF45C400E4EB80 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6525719BF45C400E4EB80 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F6524419BF448300E4EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F6521C19BF448300E4EB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F6522319BF448300E4EB80;
+			remoteInfo = SimpleWebJavaScripe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35E57FCE19BFE92F0026C816 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = SOURCE_ROOT; };
+		84F6522419BF448300E4EB80 /* SimpleWebJavaScripe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWebJavaScripe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F6522719BF448300E4EB80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84F6522919BF448300E4EB80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84F6522B19BF448300E4EB80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84F6522F19BF448300E4EB80 /* SimpleWebJavaScripe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWebJavaScripe-Info.plist"; sourceTree = "<group>"; };
+		84F6523119BF448300E4EB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F6523319BF448300E4EB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F6523519BF448300E4EB80 /* SimpleWebJavaScripe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleWebJavaScripe-Prefix.pch"; sourceTree = "<group>"; };
+		84F6523619BF448300E4EB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F6523719BF448300E4EB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F6523919BF448300E4EB80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84F6523F19BF448300E4EB80 /* SimpleWebJavaScripeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWebJavaScripeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F6524019BF448300E4EB80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84F6524819BF448300E4EB80 /* SimpleWebJavaScripeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWebJavaScripeTests-Info.plist"; sourceTree = "<group>"; };
+		84F6524A19BF448300E4EB80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F6524C19BF448300E4EB80 /* SimpleWebJavaScripeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWebJavaScripeTests.m; sourceTree = "<group>"; };
+		84F6525619BF45C400E4EB80 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84F6525719BF45C400E4EB80 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F6522119BF448300E4EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6522A19BF448300E4EB80 /* CoreGraphics.framework in Frameworks */,
+				84F6522C19BF448300E4EB80 /* UIKit.framework in Frameworks */,
+				84F6522819BF448300E4EB80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F6523C19BF448300E4EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6524119BF448300E4EB80 /* XCTest.framework in Frameworks */,
+				84F6524319BF448300E4EB80 /* UIKit.framework in Frameworks */,
+				84F6524219BF448300E4EB80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F6521B19BF448300E4EB80 = {
+			isa = PBXGroup;
+			children = (
+				84F6522D19BF448300E4EB80 /* SimpleWebJavaScripe */,
+				84F6524619BF448300E4EB80 /* SimpleWebJavaScripeTests */,
+				84F6522619BF448300E4EB80 /* Frameworks */,
+				84F6522519BF448300E4EB80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F6522519BF448300E4EB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F6522419BF448300E4EB80 /* SimpleWebJavaScripe.app */,
+				84F6523F19BF448300E4EB80 /* SimpleWebJavaScripeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F6522619BF448300E4EB80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F6522719BF448300E4EB80 /* Foundation.framework */,
+				84F6522919BF448300E4EB80 /* CoreGraphics.framework */,
+				84F6522B19BF448300E4EB80 /* UIKit.framework */,
+				84F6524019BF448300E4EB80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F6522D19BF448300E4EB80 /* SimpleWebJavaScripe */ = {
+			isa = PBXGroup;
+			children = (
+				35E57FCE19BFE92F0026C816 /* html */,
+				84F6523619BF448300E4EB80 /* AppDelegate.h */,
+				84F6523719BF448300E4EB80 /* AppDelegate.m */,
+				84F6525619BF45C400E4EB80 /* RootViewController.h */,
+				84F6525719BF45C400E4EB80 /* RootViewController.m */,
+				84F6523919BF448300E4EB80 /* Images.xcassets */,
+				84F6522E19BF448300E4EB80 /* Supporting Files */,
+			);
+			path = SimpleWebJavaScripe;
+			sourceTree = "<group>";
+		};
+		84F6522E19BF448300E4EB80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F6522F19BF448300E4EB80 /* SimpleWebJavaScripe-Info.plist */,
+				84F6523019BF448300E4EB80 /* InfoPlist.strings */,
+				84F6523319BF448300E4EB80 /* main.m */,
+				84F6523519BF448300E4EB80 /* SimpleWebJavaScripe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F6524619BF448300E4EB80 /* SimpleWebJavaScripeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F6524C19BF448300E4EB80 /* SimpleWebJavaScripeTests.m */,
+				84F6524719BF448300E4EB80 /* Supporting Files */,
+			);
+			path = SimpleWebJavaScripeTests;
+			sourceTree = "<group>";
+		};
+		84F6524719BF448300E4EB80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F6524819BF448300E4EB80 /* SimpleWebJavaScripeTests-Info.plist */,
+				84F6524919BF448300E4EB80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F6522319BF448300E4EB80 /* SimpleWebJavaScripe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F6525019BF448300E4EB80 /* Build configuration list for PBXNativeTarget "SimpleWebJavaScripe" */;
+			buildPhases = (
+				84F6522019BF448300E4EB80 /* Sources */,
+				84F6522119BF448300E4EB80 /* Frameworks */,
+				84F6522219BF448300E4EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWebJavaScripe;
+			productName = SimpleWebJavaScripe;
+			productReference = 84F6522419BF448300E4EB80 /* SimpleWebJavaScripe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F6523E19BF448300E4EB80 /* SimpleWebJavaScripeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F6525319BF448300E4EB80 /* Build configuration list for PBXNativeTarget "SimpleWebJavaScripeTests" */;
+			buildPhases = (
+				84F6523B19BF448300E4EB80 /* Sources */,
+				84F6523C19BF448300E4EB80 /* Frameworks */,
+				84F6523D19BF448300E4EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F6524519BF448300E4EB80 /* PBXTargetDependency */,
+			);
+			name = SimpleWebJavaScripeTests;
+			productName = SimpleWebJavaScripeTests;
+			productReference = 84F6523F19BF448300E4EB80 /* SimpleWebJavaScripeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F6521C19BF448300E4EB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = joker;
+				TargetAttributes = {
+					84F6523E19BF448300E4EB80 = {
+						TestTargetID = 84F6522319BF448300E4EB80;
+					};
+				};
+			};
+			buildConfigurationList = 84F6521F19BF448300E4EB80 /* Build configuration list for PBXProject "SimpleWebJavaScripe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84F6521B19BF448300E4EB80;
+			productRefGroup = 84F6522519BF448300E4EB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F6522319BF448300E4EB80 /* SimpleWebJavaScripe */,
+				84F6523E19BF448300E4EB80 /* SimpleWebJavaScripeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F6522219BF448300E4EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6523219BF448300E4EB80 /* InfoPlist.strings in Resources */,
+				35E57FCF19BFE92F0026C816 /* html in Resources */,
+				84F6523A19BF448300E4EB80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F6523D19BF448300E4EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6524B19BF448300E4EB80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F6522019BF448300E4EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6523819BF448300E4EB80 /* AppDelegate.m in Sources */,
+				84F6523419BF448300E4EB80 /* main.m in Sources */,
+				84F6525819BF45C400E4EB80 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F6523B19BF448300E4EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6524D19BF448300E4EB80 /* SimpleWebJavaScripeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F6524519BF448300E4EB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F6522319BF448300E4EB80 /* SimpleWebJavaScripe */;
+			targetProxy = 84F6524419BF448300E4EB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F6523019BF448300E4EB80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F6523119BF448300E4EB80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84F6524919BF448300E4EB80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F6524A19BF448300E4EB80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F6524E19BF448300E4EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F6524F19BF448300E4EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F6525119BF448300E4EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWebJavaScripe/SimpleWebJavaScripe-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWebJavaScripe/SimpleWebJavaScripe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F6525219BF448300E4EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWebJavaScripe/SimpleWebJavaScripe-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWebJavaScripe/SimpleWebJavaScripe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84F6525419BF448300E4EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWebJavaScripe.app/SimpleWebJavaScripe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWebJavaScripe/SimpleWebJavaScripe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleWebJavaScripeTests/SimpleWebJavaScripeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84F6525519BF448300E4EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleWebJavaScripe.app/SimpleWebJavaScripe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleWebJavaScripe/SimpleWebJavaScripe-Prefix.pch";
+				INFOPLIST_FILE = "SimpleWebJavaScripeTests/SimpleWebJavaScripeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F6521F19BF448300E4EB80 /* Build configuration list for PBXProject "SimpleWebJavaScripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F6524E19BF448300E4EB80 /* Debug */,
+				84F6524F19BF448300E4EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F6525019BF448300E4EB80 /* Build configuration list for PBXNativeTarget "SimpleWebJavaScripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F6525119BF448300E4EB80 /* Debug */,
+				84F6525219BF448300E4EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F6525319BF448300E4EB80 /* Build configuration list for PBXNativeTarget "SimpleWebJavaScripeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F6525419BF448300E4EB80 /* Debug */,
+				84F6525519BF448300E4EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F6521C19BF448300E4EB80 /* Project object */;
+}
