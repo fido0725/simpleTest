@@ -27,7 +27,7 @@
 
 - (void)viewDidLoad
 {
-    //helllllllll
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //获取本地路径 供程序使用
